@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <main className='bg-white px-10'>
         <section className='min-h-screen'>
           <Navbar />
+          <Hero />
         </section>
       </main>
     </div>
