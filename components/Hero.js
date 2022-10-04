@@ -17,9 +17,15 @@ const Hero = () => {
       </p>
 
       <div className='flex justify-center gap-16 text-5xl py-3 text-gray-600'>
-        <AiFillTwitterCircle />
-        <AiFillLinkedin />
-        <AiFillYoutube />
+        <a href='https://www.twitter.com' target='_blank'>
+          <AiFillTwitterCircle className='relative hover:scale-125 hover:text-blue-500 ease-in-out hover:duration-1000' />
+        </a>
+        <a href='https://www.linkedin.com' target='_blank'>
+          <AiFillLinkedin className='relative hover:scale-125 hover:text-[#0e76a8] ease-in-out hover:duration-1000' />
+        </a>
+        <a href='https://www.youtube.com' target='_blank'>
+          <AiFillYoutube className='relative hover:scale-125 hover:text-[#ff0000] ease-in-out hover:duration-1000' />
+        </a>
       </div>
 
       <div className='relative w-[300px] h-[300px] overflow-hidden rounded-full mt-20 mx-auto'>
