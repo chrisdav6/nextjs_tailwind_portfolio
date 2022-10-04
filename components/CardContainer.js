@@ -5,7 +5,7 @@ import consulting from '../public/img/consulting.png';
 
 const CardContainer = () => {
   return (
-    <div className='flex flex-col md:flex-row max-w-7xl gap-x-5 mx-auto justify-center mt-10'>
+    <div className='lg:flex gap-10'>
       <div className='text-center shadow-lg p-10 rounded-xl my-10'>
         <Image src={design} width={100} height={100} />
         <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>

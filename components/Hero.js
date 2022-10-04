@@ -9,9 +9,11 @@ import {
 const Hero = () => {
   return (
     <div className='text-center p-10'>
-      <h2 className='text-5xl py-2 text-teal-600 font-medium'>Chris Davis</h2>
-      <h3 className='text-2xl py-2'>Developer and Designer.</h3>
-      <p className='text-md py-5 leading-8 text-gray-800'>
+      <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>
+        Chris Davis
+      </h2>
+      <h3 className='text-2xl py-2 md:text-3xl'>Developer and Designer.</h3>
+      <p className='max-w-xl mx-auto text-md py-5 leading-8 text-gray-800 md:text-xl'>
         Freelancer providing services for programming needs. Join me below and
         let's get crackin'!
       </p>
@@ -28,8 +30,13 @@ const Hero = () => {
         </a>
       </div>
 
-      <div className='relative w-[300px] h-[300px] overflow-hidden rounded-full mt-20 mx-auto'>
-        <Image src={doom} layout='fill' objectFit='cover' />
+      <div className='relative w-[300px] h-[300px] overflow-hidden rounded-full mt-10 mx-auto md:h-96 md:w-96'>
+        <Image
+          src={doom}
+          layout='fill'
+          objectFit='cover'
+          className='hover:grayscale cursor-pointer duration-1000'
+        />
       </div>
     </div>
   );

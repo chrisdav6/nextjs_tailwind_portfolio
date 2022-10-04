@@ -14,16 +14,16 @@ export default function Home() {
         <link rel='icon' href='img/favicon.ico' />
       </Head>
 
-      <main className='bg-white px-10'>
-        <section className='min-h-screen snap-center'>
+      <main className='bg-white px-10 md:px-20 lg-px-40'>
+        <section className='min-h-screen snap-start md:snap-center'>
           <Navbar />
           <Hero />
         </section>
-        <section className='flex flex-col items-center justify-center min-h-screen snap-center'>
+        <section className='flex flex-col items-center justify-center min-h-screen snap-start md:snap-center'>
           <Services />
           <CardContainer />
         </section>
-        <section className='flex flex-col items-center justify-center min-h-screen snap-center'>
+        <section className='flex flex-col items-center justify-center min-h-screen snap-start'>
           <Portfolio />
         </section>
       </main>
