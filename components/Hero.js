@@ -12,13 +12,15 @@ const Hero = () => {
       <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>
         Chris Davis
       </h2>
-      <h3 className='text-2xl py-2 md:text-3xl'>Developer and Designer.</h3>
-      <p className='max-w-xl mx-auto text-md py-5 leading-8 text-gray-800 md:text-xl'>
+      <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-100'>
+        Developer and Designer.
+      </h3>
+      <p className='max-w-xl mx-auto text-md py-5 leading-8 text-gray-800 md:text-xl dark:text-gray-100'>
         Freelancer providing services for programming needs. Join me below and
         let's get crackin'!
       </p>
 
-      <div className='flex justify-center gap-16 text-5xl py-3 text-gray-600'>
+      <div className='flex justify-center gap-16 text-5xl py-3 text-gray-600 dark:text-gray-200'>
         <a href='https://www.twitter.com' target='_blank'>
           <AiFillTwitterCircle className='relative hover:scale-125 hover:text-blue-500 ease-in-out hover:duration-1000' />
         </a>

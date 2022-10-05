@@ -1,14 +1,17 @@
 import Link from 'next/link';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 
-const Navbar = () => {
+const Navbar = ({ setDarkMode, darkMode }) => {
   return (
     <nav className='py-10 flex justify-between'>
-      <h1 className='text-xl'>Developed by Chris</h1>
+      <h1 className='text-xl dark:text-gray-100'>Developed by Chris</h1>
 
       <ul className='flex items-center'>
         <li>
-          <BsFillMoonStarsFill className='text-2xl cursor-pointer' />
+          <BsFillMoonStarsFill
+            className='text-2xl cursor-pointer dark:text-gray-100'
+            onClick={() => setDarkMode(!darkMode)}
+          />
         </li>
         <li>
           <Link href='/'>
