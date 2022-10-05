@@ -5,7 +5,7 @@ const Footer = () => {
       <div>
         Check out my Build on{' '}
         <a
-          href=''
+          href='https://github.com/chrisdav6/nextjs_tailwind_portfolio'
           target='_blank'
           className='text-teal-500 hover:text-teal-200'
         >
